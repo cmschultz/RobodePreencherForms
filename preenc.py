@@ -8,9 +8,7 @@ navegador.get("https://forms.gle/qanvgX32PCzfP8997")
 tabela = pd.read_excel("Planilha sem título.xlsx")
 
 
-
-
-# ##Teste
+# ##Teste de um único envio
 # # matematica
 # navegador.find_element("xpath",
 #     '/html/body/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input').send_keys(6.9)
@@ -34,7 +32,6 @@ tabela = pd.read_excel("Planilha sem título.xlsx")
 #     '/html/body/div/div[2]/form/div[2]/div/div[2]/div[7]/div/div/div[2]/div/div[1]/div/div[1]/input').send_keys(9.3)
 # #clicar no botao
 # navegador.find_element("xpath",'/html/body/div/div[2]/form/div[2]/div/div[3]/div[1]/div[1]/div/span/span').click()
-
 
 
 for i, matematica in enumerate(tabela["Matemática"]):
